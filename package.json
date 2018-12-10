@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "release": "./scripts/release.sh",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "changelog": "conventional-changelog -p express -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }  
   },
   "config": {
     "commitizen": {
@@ -28,8 +33,11 @@
     "debug": "^4.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
     "conventional-changelog-cli": "^2.0.11",
     "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.2.0",
     "standard-version": "^4.4.0"
   }
 }

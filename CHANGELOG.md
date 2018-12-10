@@ -11,13 +11,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **$location:** First Commit Learning NPM Packages ([7df26e9](https://github.com/songjian925/npm/commit/7df26e9))
 
 
-### BREAKING CHANGES
-
-* **$location:** src
-
-none
-
-
 
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/songjian925/npm/compare/ITNPM_v1.1.0...1.2.0) (2018-12-10)
@@ -31,11 +24,6 @@ none
 
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/songjian925/npm/compare/ITNPM_v1.0.0...1.0.0) (2018-12-10)
-
-
-
-<a name="1.0.0"></a>
-# 1.0.0 (2018-12-10)
 
 
 ### Features
