@@ -2,7 +2,7 @@
 
 # Release branch
 master="master"
-prefix="ITNPM_v"
+prefix="stable-v"
 release="minor"
 
 git pull origin $master
